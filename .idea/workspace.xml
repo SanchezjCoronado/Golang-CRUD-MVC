@@ -29,6 +29,12 @@
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
@@ -72,22 +78,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="475" y="22" key="#GOPATH/0.0.1366.728@0.0.1366.728" timestamp="1597177319593" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1597177399600">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1597178409170">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597177399600" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1597177399600">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597178409170" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1597178409169">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597177399600" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1597177399600">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597178409169" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1597178409169">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597177399600" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1597177399600">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597178409169" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1597178409169">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597177399600" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597178409169" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1597177580820">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
