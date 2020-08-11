@@ -2,7 +2,6 @@ package main
 
 import (
 	"encoding/json"
-	"fmt"
 	"log"
 	"net/http"
 	"strconv"
@@ -51,7 +50,7 @@ func CreateShoppingController(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	shopping.ID = bson.NewObjectId()
-	if err := connection.Insert(shopping); err != nil {
+	if err := connection.Insert; err != nil {
 		respondWithError(w, http.StatusInternalServerError, err.Error())
 		return
 	}
