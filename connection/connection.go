@@ -1,6 +1,7 @@
 package connection
 
 import (
+	"errors"
 	"github.com/SanchezjCoronado/Golang-CRUD-MVC/model"
 	"gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
@@ -44,3 +45,35 @@ func Insert(shopping model.Shopping) error {
 }
 
 //Funcion encontrar por ID
+func FindById(id string) (model.Shopping, error)  {
+	var shopping model.Shopping
+	if !bson.IsObjectIdHex(id){
+		err := errors.New("Invalid ID")
+		return shopping, err
+	}
+
+	session, err := mgo.DialWithInfo(INFO)
+	if err != nil {
+		log.Fatal(err)
+		return shopping, err
+	}
+	defer session.Close()
+	c := session.DB(DBNAME).C(DOCNAME)
+
+	oid := bson.ObjectIdHex(id)
+	err = c.FindId(oid).One(&shopping)
+	return shopping, err
+}
+
+//Funcion Actualizar
+func Update(shopping model.Shopping) error  {
+	session, err := mgo.DialWithInfo(INFO)
+	if err != nil {
+		log.Fatal(err)
+		return err
+	}
+	defer session.Close()
+	c := session.DB(DBNAME).C(DOCNAME)
+	err = c.UpdateId(shopping.ID, &shopping)
+	return err
+}
